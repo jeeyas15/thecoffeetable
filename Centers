@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Centers - The Coffee Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mug-hot me-2"></i>The Coffee Table
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="centers.html">Centers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Centers Content -->
+    <div class="container py-5">
+        <h1 class="section-title">Our Centers</h1>
+        
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <h2 id="main-hub">Wyndham Vale Hub</h2>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>123 Community Street, Wyndham Vale</p>
+                <p>Our flagship center offering all core services with extended hours. This location serves as our administrative headquarters and houses our largest Food Bank operation.</p>
+                
+                <h5>Services Available:</h5>
+                <ul>
+                    <li>Full Food Bank Operations</li>
+                    <li>Community Kitchen Classes</li>
+                    <li>Coffee Table Program</li>
+                    <li>Sewing Classes</li>
+                    <li>Case Management Services</li>
+                </ul>
+                
+                <h5>Hours:</h5>
+                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                
+                <h5>Contact:</h5>
+                <p>Phone: (03) 9876 5432<br>
+                Email: wyndhamvale@thecoffeetable.org.au</p>
+            </div>
+            <div class="col-md-4">
+                <div class="map-container">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked-alt fa-2x mb-2" style="color: var(--primary-color);"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <h2 id="tarneit">Tarneit Outreach</h2>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>456 Outreach Avenue, Tarneit</p>
+                <p>Specialized services for youth and families with children under 12. This center focuses on early intervention and family support programs.</p>
+                
+                <h5>Services Available:</h5>
+                <ul>
+                    <li>Family Food Assistance</li>
+                    <li>Parenting Support Groups</li>
+                    <li>Youth Programs</li>
+                    <li>Childcare During Classes</li>
+                </ul>
+                
+                <h5>Hours:</h5>
+                <p>Tuesday - Thursday: 10:00 AM - 4:00 PM</p>
+                
+                <h5>Contact:</h5>
+                <p>Phone: (03) 9876 5433<br>
+                Email: tarneit@thecoffeetable.org.au</p>
+            </div>
+            <div class="col-md-4">
+                <div class="map-container">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked-alt fa-2x mb-2" style="color: var(--primary-color);"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <h2 id="point-cook">Point Cook Community</h2>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>789 Coastal Road, Point Cook</p>
+                <p>Focus on elderly support and intergenerational programs. This center offers specialized services for seniors and facilitates connections between age groups.</p>
+                
+                <h5>Services Available:</h5>
+                <ul>
+                    <li>Senior Nutrition Program</li>
+                    <li>Intergenerational Activities</li>
+                    <li>Transportation Assistance</li>
+                    <li>Health & Wellness Workshops</li>
+                </ul>
+                
+                <h5>Hours:</h5>
+                <p>Monday, Wednesday, Friday: 8:00 AM - 3:00 PM</p>
+                
+                <h5>Contact:</h5>
+                <p>Phone: (03) 9876 5434<br>
+                Email: pointcook@thecoffeetable.org.au</p>
+            </div>
+            <div class="col-md-4">
+                <div class="map-container">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked-alt fa-2x mb-2" style="color: var(--primary-color);"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <h2 id="werribee">Werribee Support</h2>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>321 Riverside Drive, Werribee</p>
+                <p>Emergency assistance and crisis intervention services. This center provides immediate support for individuals in crisis situations.</p>
+                
+                <h5>Services Available:</h5>
+                <ul>
+                    <li>24/7 Crisis Support Hotline</li>
+                    <li>Emergency Accommodation Assistance</li>
+                    <li>Crisis Food Packages</li>
+                    <li>Referral Services</li>
+                </ul>
+                
+                <h5>Hours:</h5>
+                <p>Daily: 8:00 AM - 6:00 PM<br>
+                Crisis Support: 24/7</p>
+                
+                <h5>Contact:</h5>
+                <p>Phone: (03) 9876 5435<br>
+                Crisis Line: 1800-COFFEE<br>
+                Email: werribee@thecoffeetable.org.au</p>
+            </div>
+            <div class="col-md-4">
+                <div class="map-container">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked-alt fa-2x mb-2" style="color: var(--primary-color);"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <h2 id="hoppers">Hoppers Crossing</h2>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>654 Valley Lane, Hoppers Crossing</p>
+                <p>Mobile services and outreach programs for remote areas. This center focuses on reaching underserved communities through mobile units and community partnerships.</p>
+                
+                <h5>Services Available:</h5>
+                <ul>
+                    <li>Mobile Food Bank</li>
+                    <li>Outreach Programs</li>
+                    <li>Community Partnership Events</li>
+                    <li>Mobile Sewing Classes</li>
+                </ul>
+                
+                <h5>Hours:</h5>
+                <p>Tuesday, Thursday, Saturday: 9:00 AM - 4:00 PM</p>
+                
+                <h5>Contact:</h5>
+                <p>Phone: (03) 9876 5436<br>
+                Email: hoppers@thecoffeetable.org.au</p>
+            </div>
+            <div class="col-md-4">
+                <div class="map-container">
+                    <div class="text-center">
+                        <i class="fas fa-map-marked-alt fa-2x mb-2" style="color: var(--primary-color);"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>The Coffee Table</h5>
+                    <p>Building community through connection, support, and shared experiences since 2015.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
+                    <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-white">Our Services</a></li>
+                        <li><a href="centers.html" class="text-white">Our Centers</a></li>
+                        <li><a href="stories.html" class="text-white">Community Stories</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
