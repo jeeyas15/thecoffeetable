@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Coffee Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mug-hot me-2"></i>The Coffee Table
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="centers.html">Centers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Content -->
+    <div class="container py-5">
+        <h1 class="section-title">About The Coffee Table</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="lead">Founded in 2015, The Coffee Table has grown from a small community initiative to a vital support network serving Wyndham Vale and surrounding areas.</p>
+                
+                <h3 class="mt-4">Our Mission</h3>
+                <p>To provide essential services while fostering a sense of community and belonging. We believe that everyone deserves access to basic necessities and human connection.</p>
+                
+                <h3 class="mt-4">Our Vision</h3>
+                <p>A community where no one faces hardship alone, where neighbors support neighbors, and where everyone has the opportunity to thrive.</p>
+                
+                <h3 class="mt-4">Our History</h3>
+                <p>What started as a weekly coffee morning in a local church basement has evolved into five specialized centers serving over 500 community members each week. Our growth reflects the genuine need for compassionate community support in our region.</p>
+                
+                <h3 class="mt-4">Our Impact</h3>
+                <ul>
+                    <li>500+ Community Members Supported Weekly</li>
+                    <li>100+ Dedicated Volunteers</li>
+                    <li>5 Operating Centers Across the Region</li>
+                    <li>Over 2,000 Meals Served Monthly</li>
+                    <li>50+ Success Stories Shared</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <img src="https://placehold.co/400x300/D2B48C/5D4037?text=Our+Team" alt="Our Team" class="img-fluid rounded shadow mb-4">
+                <img src="https://placehold.co/400x300/8B4513/FFFFFF?text=Community+Event" alt="Community Event" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>The Coffee Table</h5>
+                    <p>Building community through connection, support, and shared experiences since 2015.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
+                    <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-white">Our Services</a></li>
+                        <li><a href="centers.html" class="text-white">Our Centers</a></li>
+                        <li><a href="stories.html" class="text-white">Community Stories</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
