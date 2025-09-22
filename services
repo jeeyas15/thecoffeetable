@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - The Coffee Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mug-hot me-2"></i>The Coffee Table
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="centers.html">Centers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Services Content -->
+    <div class="container py-5">
+        <h1 class="section-title">Our Services</h1>
+        
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 id="food-bank">Food Bank</h2>
+                <p>Our Food Bank provides emergency food assistance to families and individuals in crisis. We distribute fresh produce, pantry staples, and hygiene items to over 200 households weekly.</p>
+                <h5>Eligibility:</h5>
+                <ul>
+                    <li>Residents of Wyndham Vale and surrounding areas</li>
+                    <li>Valid ID and proof of address required</li>
+                    <li>One visit per week per household</li>
+                </ul>
+                <h5>Hours:</h5>
+                <p>Monday - Friday: 9:00 AM - 4:00 PM</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://placehold.co/500x300/F4A460/5D4037?text=Food+Bank" alt="Food Bank" class="img-fluid rounded shadow">
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 id="community-kitchen">Community Kitchen</h2>
+                <p>Our Community Kitchen offers hands-on cooking classes, meal preparation workshops, and communal dining experiences. Participants learn valuable life skills while building connections with others.</p>
+                <h5>Programs:</h5>
+                <ul>
+                    <li>Beginner Cooking Classes (Tuesdays & Thursdays)</li>
+                    <li>Nutrition Education Workshops</li>
+                    <li>Community Meal Preparation (Saturdays)</li>
+                    <li>Cultural Cuisine Series</li>
+                </ul>
+                <h5>Hours:</h5>
+                <p>Tuesday & Thursday: 10:00 AM - 2:00 PM<br>
+                Saturday: 11:00 AM - 3:00 PM</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://placehold.co/500x300/8B4513/FFFFFF?text=Community+Kitchen" alt="Community Kitchen" class="img-fluid rounded shadow">
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 id="coffee-table">Coffee Table</h2>
+                <p>More than just a place for a warm drink, our Coffee Table program provides a welcoming space for social connection, peer support groups, and community activities.</p>
+                <h5>Activities:</h5>
+                <ul>
+                    <li>Daily Coffee & Conversation (9:00 AM - 11:00 AM)</li>
+                    <li>Peer Support Groups (Wednesdays)</li>
+                    <li>Book Club & Reading Circle</li>
+                    <li>Arts & Crafts Sessions</li>
+                    <li>Guest Speakers & Workshops</li>
+                </ul>
+                <h5>Hours:</h5>
+                <p>Monday - Friday: 9:00 AM - 3:00 PM</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://placehold.co/500x300/D2B48C/5D4037?text=Coffee+Table" alt="Coffee Table" class="img-fluid rounded shadow">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h2 id="sewing-classes">Sewing Classes</h2>
+                <p>Our Sewing Classes teach practical skills that empower participants to create clothing, household items, and gifts while building confidence and creativity.</p>
+                <h5>Class Offerings:</h5>
+                <ul>
+                    <li>Beginner Sewing Fundamentals</li>
+                    <li>Intermediate Techniques</li>
+                    <li>Specialty Workshops (Quilting, Upholstery)</li>
+                    <li>Community Projects (Blanket Making for Charity)</li>
+                </ul>
+                <h5>Schedule:</h5>
+                <p>Monday & Wednesday: 1:00 PM - 4:00 PM<br>
+                Friday: 10:00 AM - 2:00 PM</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://placehold.co/500x300/5D4037/D2B48C?text=Sewing+Classes" alt="Sewing Classes" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>The Coffee Table</h5>
+                    <p>Building community through connection, support, and shared experiences since 2015.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
+                    <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-white">Our Services</a></li>
+                        <li><a href="centers.html" class="text-white">Our Centers</a></li>
+                        <li><a href="stories.html" class="text-white">Community Stories</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
