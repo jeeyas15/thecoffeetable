@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - The Coffee Table</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-mug-hot me-2"></i>The Coffee Table
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="centers.html">Centers</a></li>
+          <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <div class="container py-5">
+    <h1 class="section-title text-center mb-4">Contact Us</h1>
+    <p class="text-center mb-5">We’d love to hear from you. Send us a message and we’ll get back to you as soon as possible.</p>
+
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <form id="contactForm" action="https://formspree.io/f/xqayajye" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="name" id="name" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" name="email" id="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" name="subject" id="subject" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div id="formFeedback" class="mt-3 alert" style="display: none;"></div>
+      </div>
+
+      <!-- Contact Info + Map -->
+      <div class="col-md-5">
+        <h4>Get in Touch</h4>
+        <p><i class="fas fa-map-marker-alt me-2"></i>123 Community Street, Wyndham Vale, Victoria</p>
+        <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+        <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+        
+        <h5 class="mt-4">Follow Us</h5>
+        <a href="#" class="text-dark me-3"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="text-dark me-3"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>
+
+        <!-- Google Map Embed -->
+        <div class="mt-4">
+          <h5>Find Us</h5>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.124171070038!2d144.666664!3d-37.908989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4a0a0a0a0b%3A0x123456789abcdef!2sWyndham%20Vale%20VIC!5e0!3m2!1sen!2sau!4v1695623456789!5m2!1sen!2sau" 
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5>The Coffee Table</h5>
+          <p>Building community through connection, support, and shared experiences since 2015.</p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5>Contact Info</h5>
+          <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
+          <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+          <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="services.html" class="text-white">Our Services</a></li>
+            <li><a href="centers.html" class="text-white">Our Centers</a></li>
+            <li><a href="stories.html" class="text-white">Community Stories</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center">
+        <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const form = event.target;
+      const data = new FormData(form);
+      fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(response => {
+        const feedback = document.getElementById("formFeedback");
+        if (response.ok) {
+          feedback.className = "mt-3 alert alert-success";
+          feedback.innerText = "✅ Thank you for your message! We’ll get back to you soon.";
+          feedback.style.display = "block";
+          form.reset();
+        } else {
+          feedback.className = "mt-3 alert alert-danger";
+          feedback.innerText = "⚠️ Oops! There was a problem submitting your form.";
+          feedback.style.display = "block";
+        }
+      })
+      .catch(() => {
+        const feedback = document.getElementById("formFeedback");
+        feedback.className = "mt-3 alert alert-danger";
+        feedback.innerText = "⚠️ Oops! There was a problem submitting your form.";
+        feedback.style.display = "block";
+      });
+    });
+  </script>
+</body>
+</html>
 
