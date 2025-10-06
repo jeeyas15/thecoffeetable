@@ -1,238 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Coffee Table - Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ✅ SEO Improvements -->
+  <title>The Coffee Table – Building Community in Wyndham Vale</title>
+  <meta name="description" content="The Coffee Table is a community organization in Wyndham Vale providing food bank services, a community kitchen, sewing classes, and support through local centers.">
+  <meta name="keywords" content="The Coffee Table, Wyndham Vale, community services, food bank, community kitchen, sewing classes, community support">
+  <meta name="author" content="The Coffee Table">
+  <meta name="robots" content="index, follow">
+  
+  <!-- ✅ Open Graph for Social Media -->
+  <meta property="og:title" content="The Coffee Table – Building Community in Wyndham Vale">
+  <meta property="og:description" content="Connecting people through food, support, and community engagement.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thecoffeetable.org.au">
+  <meta property="og:image" content="https://placehold.co/600x400/D2B48C/5D4037?text=Community+Gathering">
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-mug-hot me-2"></i>The Coffee Table
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="centers.html">Centers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-mug-hot me-2" aria-hidden="true"></i>
+        <span class="visually-hidden">The Coffee Table Home</span>
+        The Coffee Table
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="centers.html">Centers</a></li>
+          <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="display-4 fw-bold">Building Community, One Cup at a Time</h1>
-                    <p class="lead">Supporting Wyndham Vale through food security, education, and connection</p>
-                    <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
-                    <a href="contact.html" class="btn btn-outline-light btn-lg">Get Involved</a>
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <header class="hero-section text-center text-white" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4 fw-bold">Building Community, One Cup at a Time</h1>
+          <p class="lead">Supporting Wyndham Vale through food security, education, and connection</p>
+          <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
+          <a href="contact.html" class="btn btn-outline-light btn-lg">Get Involved</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </header>
 
-    <!-- About Preview -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="section-title text-center">About The Coffee Table</h2>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p class="lead">Founded in 2015, The Coffee Table has grown from a small community initiative to a vital support network serving Wyndham Vale and surrounding areas.</p>
-                    <p>Our mission is to provide essential services while fostering a sense of community and belonging. We operate five centers across the region, each offering tailored support to meet local needs.</p>
-                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
-                </div>
-                <div class="col-md-6">
-                    <img src="https://placehold.co/600x400/D2B48C/5D4037?text=Community+Gathering" alt="Community Gathering" class="img-fluid rounded shadow">
-                </div>
-            </div>
+  <!-- About Preview -->
+  <section class="py-5" aria-labelledby="about-section">
+    <div class="container">
+      <h2 id="about-section" class="section-title text-center">About The Coffee Table</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="lead">Founded in 2015, The Coffee Table has grown from a small community initiative to a vital support network serving Wyndham Vale and surrounding areas.</p>
+          <p>Our mission is to provide essential services while fostering a sense of community and belonging. We operate five centers across the region, each offering tailored support to meet local needs.</p>
+          <a href="about.html" class="btn btn-primary">Learn More About Us</a>
         </div>
-    </section>
-
-    <!-- Services Preview -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Our Services</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card service-card h-100">
-                        <div class="card-body text-center">
-                            <div class="service-icon">
-                                <i class="fas fa-utensils"></i>
-                            </div>
-                            <h5 class="card-title">Food Bank</h5>
-                            <p class="card-text">Emergency food assistance for families in need.</p>
-                            <a href="services.html#food-bank" class="btn btn-sm btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card service-card h-100">
-                        <div class="card-body text-center">
-                            <div class="service-icon">
-                                <i class="fas fa-kitchen-set"></i>
-                            </div>
-                            <h5 class="card-title">Community Kitchen</h5>
-                            <p class="card-text">Learn cooking skills and share meals with others.</p>
-                            <a href="services.html#community-kitchen" class="btn btn-sm btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card service-card h-100">
-                        <div class="card-body text-center">
-                            <div class="service-icon">
-                                <i class="fas fa-mug-hot"></i>
-                            </div>
-                            <h5 class="card-title">Coffee Table</h5>
-                            <p class="card-text">Social hub offering companionship and support.</p>
-                            <a href="services.html#coffee-table" class="btn btn-sm btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card service-card h-100">
-                        <div class="card-body text-center">
-                            <div class="service-icon">
-                                <i class="fas fa-scissors"></i>
-                            </div>
-                            <h5 class="card-title">Sewing Classes</h5>
-                            <p class="card-text">Learn practical skills in our supportive environment.</p>
-                            <a href="services.html#sewing-classes" class="btn btn-sm btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <a href="services.html" class="btn btn-primary">View All Services</a>
-            </div>
+        <div class="col-md-6">
+          <img src="https://placehold.co/600x400/D2B48C/5D4037?text=Community+Gathering" alt="Community members gathered at The Coffee Table center" class="img-fluid rounded shadow">
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Centers Preview -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="section-title text-center">Our Centers</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card center-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Wyndham Vale Hub</h5>
-                            <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>123 Community Street</p>
-                            <p class="card-text">Our flagship center offering all core services.</p>
-                            <a href="centers.html#main-hub" class="btn btn-sm btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card center-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Tarneit Outreach</h5>
-                            <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>456 Outreach Avenue</p>
-                            <p class="card-text">Specialized services for youth and families.</p>
-                            <a href="centers.html#tarneit" class="btn btn-sm btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card center-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Point Cook Community</h5>
-                            <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>789 Coastal Road</p>
-                            <p class="card-text">Focus on elderly support programs.</p>
-                            <a href="centers.html#point-cook" class="btn btn-sm btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>
+  <!-- Services Preview -->
+  <section class="py-5 bg-light" aria-labelledby="services-section">
+    <div class="container">
+      <h2 id="services-section" class="section-title text-center">Our Services</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card service-card h-100">
+            <div class="card-body text-center">
+              <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <h5 class="card-title">Food Bank</h5>
+              <p class="card-text">Emergency food assistance for families in need.</p>
+              <a href="services.html#food-bank" class="btn btn-sm btn-primary">Learn More</a>
             </div>
-            <div class="text-center mt-4">
-                <a href="centers.html" class="btn btn-primary">View All Centers</a>
-            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Stories Preview -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Community Stories</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card testimonial-card">
-                        <div class="card-body">
-                            <p class="card-text">"The Coffee Table gave me hope when I had nowhere else to turn. The food bank helped feed my family during our toughest month."</p>
-                            <footer class="blockquote-footer">Sarah M., Wyndham Vale</footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card testimonial-card">
-                        <div class="card-body">
-                            <p class="card-text">"Learning to cook in the community kitchen changed my life. I now cook healthy meals for my kids and even started a small catering business."</p>
-                            <footer class="blockquote-footer">James T., Tarneit</footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card testimonial-card">
-                        <div class="card-body">
-                            <p class="card-text">"As a volunteer, I've seen firsthand how our services transform lives. The sense of community here is truly special."</p>
-                            <footer class="blockquote-footer">Robert K., Long-term Volunteer</footer>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card service-card h-100">
+            <div class="card-body text-center">
+              <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-kitchen-set"></i>
+              </div>
+              <h5 class="card-title">Community Kitchen</h5>
+              <p class="card-text">Learn cooking skills and share meals with others.</p>
+              <a href="services.html#community-kitchen" class="btn btn-sm btn-primary">Learn More</a>
             </div>
-            <div class="text-center mt-4">
-                <a href="stories.html" class="btn btn-primary">Read More Stories</a>
-            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h5>The Coffee Table</h5>
-                    <p>Building community through connection, support, and shared experiences since 2015.</p>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h5>Contact Info</h5>
-                    <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
-                    <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
-                    <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html" class="text-white">Home</a></li>
-                        <li><a href="about.html" class="text-white">About Us</a></li>
-                        <li><a href="services.html" class="text-white">Our Services</a></li>
-                        <li><a href="centers.html" class="text-white">Our Centers</a></li>
-                        <li><a href="stories.html" class="text-white">Community Stories</a></li>
-                        <li><a href="contact.html" class="text-white">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card service-card h-100">
+            <div class="card-body text-center">
+              <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-mug-hot"></i>
+              </div>
+              <h5 class="card-title">Coffee Table</h5>
+              <p class="card-text">A welcoming hub offering companionship and support.</p>
+              <a href="services.html#coffee-table" class="btn btn-sm btn-primary">Learn More</a>
             </div>
-            <hr class="my-4">
-            <div class="text-center">
-                <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
-            </div>
+          </div>
         </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card service-card h-100">
+            <div class="card-body text-center">
+              <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-scissors"></i>
+              </div>
+              <h5 class="card-title">Sewing Classes</h5>
+              <p class="card-text">Learn practical skills in a friendly environment.</p>
+              <a href="services.html#sewing-classes" class="btn btn-sm btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="services.html" class="btn btn-primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Centers Preview -->
+  <section class="py-5" aria-labelledby="centers-section">
+    <div class="container">
+      <h2 id="centers-section" class="section-title text-center">Our Centers</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card center-card">
+            <div class="card-body">
+              <h5 class="card-title">Wyndham Vale Hub</h5>
+              <p class="text-muted"><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>123 Community Street</p>
+              <p class="card-text">Our flagship center offering all core services.</p>
+              <a href="centers.html#main-hub" class="btn btn-sm btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card center-card">
+            <div class="card-body">
+              <h5 class="card-title">Tarneit Outreach</h5>
+              <p class="text-muted"><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>456 Outreach Avenue</p>
+              <p class="card-text">Specialized services for youth and families.</p>
+              <a href="centers.html#tarneit" class="btn btn-sm btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card center-card">
+            <div class="card-body">
+              <h5 class="card-title">Point Cook Community</h5>
+              <p class="text-muted"><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>789 Coastal Road</p>
+              <p class="card-text">Focus on elderly support programs.</p>
+              <a href="centers.html#point-cook" class="btn btn-sm btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="centers.html" class="btn btn-primary">View All Centers</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories Preview -->
+  <section class="py-5 bg-light" aria-labelledby="stories-section">
+    <div class="container">
+      <h2 id="stories-section" class="section-title text-center">Community Stories</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card testimonial-card h-100">
+            <div class="card-body">
+              <blockquote class="blockquote">
+                <p>"The Coffee Table gave me hope when I had nowhere else to turn. The food bank helped feed my family during our toughest month."</p>
+                <footer class="blockquote-footer">Sarah M., Wyndham Vale</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card testimonial-card h-100">
+            <div class="card-body">
+              <blockquote class="blockquote">
+                <p>"Learning to cook in the community kitchen changed my life. I now cook healthy meals for my kids and even started a small catering business."</p>
+                <footer class="blockquote-footer">James T., Tarneit</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card testimonial-card h-100">
+            <div class="card-body">
+              <blockquote class="blockquote">
+                <p>"As a volunteer, I've seen firsthand how our services transform lives. The sense of community here is truly special."</p>
+                <footer class="blockquote-footer">Robert K., Volunteer</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="stories.html" class="btn btn-primary">Read More Stories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer mt-5 text-white" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5>The Coffee Table</h5>
+          <p>Building community through connection, support, and shared experiences since 2015.</p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5>Contact Info</h5>
+          <address>
+            <p><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>Wyndham Vale, Victoria</p>
+            <p><i class="fas fa-phone me-2" aria-hidden="true"></i>(03) 9876 5432</p>
+            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@thecoffeetable.org.au" class="text-white">info@thecoffeetable.org.au</a></p>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="services.html" class="text-white">Our Services</a></li>
+            <li><a href="centers.html" class="text-white">Our Centers</a></li>
+            <li><a href="stories.html" class="text-white">Community Stories</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center">
+        <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
