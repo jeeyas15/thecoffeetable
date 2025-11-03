@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO  -->
+  <!-- SEO -->
   <title>The Coffee Table – Building Community in Wyndham Vale</title>
   <meta name="description" content="The Coffee Table is a community organization in Wyndham Vale providing food bank services, a community kitchen, sewing classes, and support through local centers.">
   <meta name="keywords" content="The Coffee Table, Wyndham Vale, community services, food bank, community kitchen, sewing classes, community support">
@@ -20,8 +20,8 @@
 
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -50,18 +50,17 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero-section text-center text-white" role="banner">
+<header class="hero-section text-center text-white" role="banner">
+  <img src="images/hero.jpg" alt="Volunteers distributing food and supplies to community members at The Coffee Table" class="hero-img">
+  <div class="hero-overlay">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="display-4 fw-bold">Building Community, One Cup at a Time</h1>
-          <p class="lead">Supporting Wyndham Vale through food security, education, and connection</p>
-          <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
-          <a href="contact.html" class="btn btn-outline-light btn-lg">Get Involved</a>
-        </div>
-      </div>
+      <h1 class="display-4 fw-bold">Building Community, One Cup at a Time</h1>
+      <p class="lead">Supporting Wyndham Vale through food security, education, and connection</p>
+      <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
+      <a href="contact.html" class="btn btn-outline-light btn-lg">Get Involved</a>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- About Preview -->
   <section class="py-5" aria-labelledby="about-section">
@@ -74,7 +73,7 @@
           <a href="about.html" class="btn btn-primary">Learn More About Us</a>
         </div>
         <div class="col-md-6">
-          <img src="https://placehold.co/600x400/D2B48C/5D4037?text=Community+Gathering" alt="Community members gathered at The Coffee Table center" class="img-fluid rounded shadow">
+          <img src="images/about.jpg" alt="Group of community members joining hands in unity at The Coffee Table" class="img-fluid rounded shadow about-image">
         </div>
       </div>
     </div>
@@ -102,7 +101,7 @@
           <div class="card service-card h-100">
             <div class="card-body text-center">
               <div class="service-icon" aria-hidden="true">
-                <i class="fas fa-kitchen-set"></i>
+                <i class="fas fa-plate-wheat"></i>
               </div>
               <h5 class="card-title">Community Kitchen</h5>
               <p class="card-text">Learn cooking skills and share meals with others.</p>
@@ -231,42 +230,48 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer mt-5 text-white" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5>The Coffee Table</h5>
-          <p>Building community through connection, support, and shared experiences since 2015.</p>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5>Contact Info</h5>
-          <address>
-            <p><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>Wyndham Vale, Victoria</p>
-            <p><i class="fas fa-phone me-2" aria-hidden="true"></i>(03) 9876 5432</p>
-            <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="mailto:info@thecoffeetable.org.au" class="text-white">info@thecoffeetable.org.au</a></p>
-          </address>
-        </div>
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="index.html" class="text-white">Home</a></li>
-            <li><a href="about.html" class="text-white">About Us</a></li>
-            <li><a href="services.html" class="text-white">Our Services</a></li>
-            <li><a href="centers.html" class="text-white">Our Centers</a></li>
-            <li><a href="stories.html" class="text-white">Community Stories</a></li>
-            <li><a href="contact.html" class="text-white">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr class="my-4">
-      <div class="text-center">
-        <p class="mb-0">&copy; 2023 The Coffee Table. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+ <!-- Footer -->
+    <footer class="footer mt-5 py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold text-uppercase">The Coffee Table</h5>
+                    <p>Building community through connection, support, and shared experiences since 2015.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
 
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold text-uppercase">Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Wyndham Vale, Victoria</p>
+                    <p><i class="fas fa-phone me-2"></i>(03) 9876 5432</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@thecoffeetable.org.au</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="services.html" class="text-white text-decoration-none">Our Services</a></li>
+                        <li><a href="centers.html" class="text-white text-decoration-none">Our Centers</a></li>
+                        <li><a href="stories.html" class="text-white text-decoration-none">Community Stories</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-light">
+            <div class="text-center small">
+                <p class="mb-0">&copy; 2025 The Coffee Table. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
