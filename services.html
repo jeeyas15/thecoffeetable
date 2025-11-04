@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services - The Coffee Table</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
     <style>
         .service-section {
@@ -62,7 +62,7 @@
                 <p>Monday - Friday: 9:00 AM - 4:00 PM</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="https://placehold.co/500x300/F4A460/5D4037?text=Food+Bank" alt="Food Bank" class="img-fluid rounded shadow">
+                <img src="images/food-bank.jpg" alt="Food Bank" class="img-fluid rounded shadow fade-in">
             </div>
         </div>
         
@@ -82,7 +82,7 @@
                 Saturday: 11:00 AM - 3:00 PM</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="https://placehold.co/500x300/8B4513/FFFFFF?text=Community+Kitchen" alt="Community Kitchen" class="img-fluid rounded shadow">
+                <img src="images/community-kitchen.jpg" alt="Community Kitchen" class="img-fluid rounded shadow fade-in">
             </div>
         </div>
         
@@ -102,7 +102,7 @@
                 <p>Monday - Friday: 9:00 AM - 3:00 PM</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="https://placehold.co/500x300/D2B48C/5D4037?text=Coffee+Table" alt="Coffee Table" class="img-fluid rounded shadow">
+                <img src="images/coffee-table.jpg" alt="Coffee Table" class="img-fluid rounded shadow fade-in">
             </div>
         </div>
         
@@ -122,7 +122,7 @@
                 Friday: 10:00 AM - 2:00 PM</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="https://placehold.co/500x300/5D4037/D2B48C?text=Sewing+Classes" alt="Sewing Classes" class="img-fluid rounded shadow">
+                <img src="images/sewing-class.jpg" alt="Sewing Classes" class="img-fluid rounded shadow fade-in">
             </div>
         </div>
     </div>
@@ -135,9 +135,9 @@
                     <h5 class="fw-bold text-uppercase">The Coffee Table</h5>
                     <p>Building community through connection, support, and shared experiences since 2015.</p>
                     <div class="d-flex justify-content-center justify-content-md-start">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61583187663282" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/thecoffeetable12/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/Thecoffeet49330" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
                 </div>
 
@@ -171,3 +171,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const images = document.querySelectorAll('.service-section img');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  images.forEach(img => observer.observe(img));
+});
+</script>
+
