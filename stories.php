@@ -2,6 +2,7 @@
 session_start();
 require 'config/db.php';
 
+
 $navAvatar = null;
 if (isset($_SESSION['user_id'])) {
     $stmtNav = $pdo->prepare("SELECT avatar FROM users WHERE id = ?");
