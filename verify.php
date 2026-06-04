@@ -2,6 +2,7 @@
 session_start();
 require 'config/db.php';
 
+
 // Redirect if not coming from registration
 if (!isset($_SESSION['verify_email'])) {
     header('Location: index.php');
